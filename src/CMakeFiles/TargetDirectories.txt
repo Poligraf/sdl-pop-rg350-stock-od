@@ -1,0 +1,3 @@
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/CMakeFiles/rebuild_cache.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/CMakeFiles/edit_cache.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/CMakeFiles/prince.dir
