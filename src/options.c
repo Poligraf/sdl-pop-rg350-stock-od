@@ -432,11 +432,11 @@ void set_options_to_default() {
 	enable_text = 1;
 	enable_info_screen = 1;
 	start_fullscreen = 0;
-	use_correct_aspect_ratio = 0;
+	use_correct_aspect_ratio = 1;
 	use_integer_scaling = 0;
 	scaling_type = 0;
 	enable_controller_rumble = 1;
-	joystick_only_horizontal = 1;
+	joystick_only_horizontal = 0;
 	joystick_threshold = 8000;
 	enable_quicksave = 1;
 	enable_quicksave_penalty = 1;
@@ -454,7 +454,7 @@ void set_options_to_default() {
 
 void load_global_options() {
 	set_options_to_default();
-	ini_load(locate_file("SDLPoP.ini"), global_ini_callback); // global configuration
+	ini_load(locate_file("/usr/local/home/pop/SDLPoP.ini"), global_ini_callback); // global configuration
 	load_dos_exe_modifications("."); // read PRINCE.EXE in the current working directory
 }
 
@@ -752,5 +752,3 @@ int process_rw_read(SDL_RWops* rw, void* data, size_t data_size) {
 	return SDL_RWread(rw, data, data_size, 1);
 	// if this returns 0, most likely the end of the stream has been reached
 }
-
-

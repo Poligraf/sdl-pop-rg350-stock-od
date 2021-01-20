@@ -34,21 +34,19 @@ data.h
 
 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/data.h
 
-/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/proto.h
-
-/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/seg009.c
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/menu.c
 common.h
 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/common.h
-time.h
+
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/options.c
+common.h
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/common.h
+ctype.h
 -
-errno.h
+inttypes.h
 -
-windows.h
--
-wchar.h
--
-dirent.h
-/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/dirent.h
+
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/proto.h
 
 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/SDLPoP/src/stb_vorbis.c
 stdio.h

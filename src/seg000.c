@@ -678,8 +678,7 @@ int __pascal far process_key() {
 			}
 		break;
 #ifdef USE_QUICKSAVE
-		case SDL_SCANCODE_F6:
-		case SDL_SCANCODE_F6 | WITH_SHIFT:
+		case SDL_SCANCODE_TAB:
 			if (Kid.alive < 0) need_quick_save = 1;
 		break;
 		case SDL_SCANCODE_BACKSPACE:
