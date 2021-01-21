@@ -2273,12 +2273,12 @@ const rect_type splash_text_2_rect = {50, 0, 200, 320};
 const char* splash_text_1 = "SDLPoP " SDLPOP_VERSION;
 const char* splash_text_2 =
 #ifdef USE_QUICKSAVE
-		"To quick save/load, press F6/F9 in-game.\n"
+		"To quick save/load, press L/R in-game.\n"
 		"\n"
 #endif
 #ifdef USE_REPLAY
-		"To record replays, press Ctrl+Tab in-game.\n"
-		"To view replays, press Tab on the title screen.\n"
+		"Ported for RG350 family by POLIGRAF\n"
+		"https://github.com/Poligraf.\n"
 		"\n"
 #endif
 		"Edit SDLPoP.ini to customize SDLPoP.\n"
@@ -2287,7 +2287,7 @@ const char* splash_text_2 =
 		"For more information, read doc/Readme.txt.\n"
 		"Questions? Visit https://forum.princed.org\n"
 		"\n"
-		"Press any key to continue...";
+		"Press X to continue...";
 
 void show_splash() {
 	if (!enable_info_screen || start_level >= 0) return;
